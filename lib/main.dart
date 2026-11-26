@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 void main(){runApp(MeroKotha());}
 class MeroKotha extends StatelessWidget{
@@ -42,6 +43,7 @@ class _MainScreenState extends State<MainScreen>{
   }
   Widget _home(List<Room> f){
     return SafeArea(child:SingleChildScrollView(child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[
+      // TOP GREEN HEADER - jaise screenshot me hai
       Container(decoration:BoxDecoration(gradient:LinearGradient(colors:[Color(0xFF1DB954),Color(0xFF0E7A3D)]),borderRadius:BorderRadius.vertical(bottom:Radius.circular(20))),padding:EdgeInsets.all(14),child:Column(children:[
         Row(children:[
           Expanded(child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[Text('Mero Kotha मेरा',style:TextStyle(color:Colors.white,fontWeight:FontWeight.bold,fontSize:22)),Text('नेपालको आफ्नै रूम रेन्टल एप',style:TextStyle(color:Colors.white,fontSize:12))])),
@@ -55,6 +57,7 @@ class _MainScreenState extends State<MainScreen>{
         Row(children:[Expanded(child:Container(padding:EdgeInsets.symmetric(vertical:12),decoration:BoxDecoration(color:Color(0xFFFF6600),borderRadius:BorderRadius.circular(25)),child:Row(mainAxisAlignment:MainAxisAlignment.center,children:[Text('🎯 ',style:TextStyle(fontSize:16)),Text('Mero Najik ko Room',style:TextStyle(color:Colors.white,fontWeight:FontWeight.bold))]))),SizedBox(width:8),Container(padding:EdgeInsets.symmetric(horizontal:16,vertical:12),decoration:BoxDecoration(color:Color(0xFF0E6A3A),borderRadius:BorderRadius.circular(25)),child:Row(children:[Icon(Icons.my_location,color:Colors.white,size:16),SizedBox(width:4),Text('GPS',style:TextStyle(color:Colors.white,fontWeight:FontWeight.bold))]))]),
       ])),
       SizedBox(height:14),
+      // ORANGE BANNER - jaise screenshot me
       Container(margin:EdgeInsets.symmetric(horizontal:14),padding:EdgeInsets.all(18),decoration:BoxDecoration(gradient:LinearGradient(colors:[Color(0xFFFF6600),Color(0xFFFFB800)]),borderRadius:BorderRadius.circular(20)),child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[
         Text('नमस्ते! 🙏 Pokhara मा ९ वटा नयाँ कोठा!',style:TextStyle(color:Colors.white,fontSize:14)),
         Text('आजै आफ्नो कोठा खोज्नुहोस्',style:TextStyle(color:Colors.white,fontWeight:FontWeight.bold,fontSize:26)),
@@ -72,6 +75,7 @@ class _MainScreenState extends State<MainScreen>{
         _filterBtn('👥 Sabai','Sabai'), _filterBtn('For Tourist','For Tourist'), _filterBtn('For Student','For Student'), _filterBtn('For Family','For Family'),
       ])),
       SizedBox(height:14),
+      // PURPLE PAISA CARD - jaise screenshot me
       Container(margin:EdgeInsets.symmetric(horizontal:14),padding:EdgeInsets.all(16),decoration:BoxDecoration(color:Color(0xFF7B4DFF),borderRadius:BorderRadius.circular(20)),child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[
         Text('₹  Paisa Kasari Aaucha? 💰',style:TextStyle(color:Colors.white,fontWeight:FontWeight.bold,fontSize:20)),
         Text('Mero Kotha बाट तपाईं (App Owner) ले कसरी पैसा कमाउनुहुन्छ?',style:TextStyle(color:Colors.white)),
