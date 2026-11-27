@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "194782345454",
+    "project_id": "mero-kotha-b3345",
+    "storage_bucket": "mero-kotha-b3345.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194782345454:android:b29476de1c7a71597c1bff",
+        "android_client_info": {
+          "package_name": "com.merokotha.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBj2DRpL94bjDomSQcpKe-qaAySAsWbmEk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
